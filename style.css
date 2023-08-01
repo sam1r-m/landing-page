@@ -17,7 +17,7 @@
 
 .signup button {
     background-color: #3882f6;
-    border-radius: 10px;
+    border-radius: 7px;
     height: 32px;
     width: 100px;
     color: #e5e7eb;
@@ -83,6 +83,64 @@
 .section-3 {
     display: flex;
     background-color: #e5e7eb;
+    flex-direction: column;
+    padding: 96px 375px;
+    align-items: flex-end;;
+    gap: 10px;
+}
+
+.section-3 h2 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.section-3 h2, .section-3 h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.section-4 {
+    padding: 64px 200px;
+}
+
+.blue-background {
+    background-color: #3882f6;
+    border-radius: 6px;
+}
+
+.action {
+    display: flex;
+    padding: 48px 124px;
+    color: #f9faf8;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action h3, .action p, .action button {
+    padding: 0;
+    margin: 0;
+    flex: 1;
+}
+
+.action button {
+    height: 40px;
+    max-width: 112px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: 1px solid #e5e7eb;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 24px 36px;
+    color: #e5e7eb;
 }
 
 body {
